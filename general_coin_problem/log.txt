@@ -1,0 +1,27 @@
+id: 66
+svruid: 1608873326
+email: 13539956066@163.com
+loginpwd: ed4462a165f0e5041581a0327d6bea30
+acctype: 6
+authtype: 5
+other_name: 卓文雄
+other_num: 44088219861124575X
+other_img: Public/Uploads/55dc95f1a734ef75459958478a41fb6043ed329d/register/20150710/1436490792.jpg?916587b1fc7782fd4e731df6c07d1258
+op_name: 卓文雄
+op_cardnum: 5uiC0rkWkuyLMwY9Yx2vNfcCC
+op_cardimg: Public/Uploads/55dc95f1a734ef75459958478a41fb6043ed329d/register/20150710/1436490954.jpg?c93b7601b2c818e8690cfc0718e40f1a
+op_mobile: 13539956066
+open_name: 粤西名片
+open_photo: Public/Uploads/55dc95f1a734ef75459958478a41fb6043ed329d/register/20150710/1436491107.jpg?195ff1c0ddcd435e689c7a8c0b02b556
+open_desc: 电子名片不但新颖，时尚，而且非常实用，适用于任何商家，企事业。电子名片是名片中的极品,是名片中的“绅士”。是现代政要和企业老板身份的象征。是今后企事业单位必备的宣传品，市场前景非常广阔。
+open_buss: 2001
+open_address: 中国广州市白云大道北1399号
+open_weburl: http://nlesc.sinaapp.com/
+status: 2
+regstep: 5
+ctime: 2015-07-10 09:40:18
+utime: NULL
+rejectreason: NULL
+emailcode:
+upstatus: 0
+other_img1: NULL
