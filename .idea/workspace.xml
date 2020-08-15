@@ -25,8 +25,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yixue_GDM" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -37,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Crystal\Documents\GitHub\ComplexityQuestions\general_coin_problem" />
       <recent name="C:\Users\zheru\Documents\GitHub\ComplexityQuestions" />
     </key>
   </component>
@@ -79,9 +80,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1207" y="239" key="SettingsEditor" timestamp="1596103473347">
+    <state x="576" y="353" key="FileChooserDialogImpl" timestamp="1596966193379">
       <screen x="0" y="0" width="2341" height="1194" />
     </state>
-    <state x="1207" y="239" key="SettingsEditor/0.0.2341.1194@0.0.2341.1194" timestamp="1596103473347" />
+    <state x="576" y="353" key="FileChooserDialogImpl/0.0.2341.1194@0.0.2341.1194" timestamp="1596966193379" />
+    <state x="990" y="222" key="SettingsEditor" timestamp="1596886832684">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state x="990" y="222" key="SettingsEditor/0.0.2341.1194@0.0.2341.1194" timestamp="1596886832684" />
+    <state x="1383" y="421" key="com.intellij.ide.util.TipDialog" timestamp="1596954932418">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state x="1296" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1596195437727" />
+    <state x="1383" y="421" key="com.intellij.ide.util.TipDialog/0.0.2341.1194@0.0.2341.1194" timestamp="1596954932418" />
+    <state x="1117" y="315" key="search.everywhere.popup" timestamp="1596886787045">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state x="1117" y="315" key="search.everywhere.popup/0.0.2341.1194@0.0.2341.1194" timestamp="1596886787045" />
   </component>
 </project>

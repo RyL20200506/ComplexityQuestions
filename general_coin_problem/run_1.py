@@ -1,3 +1,4 @@
+# 与前一次结果相关，且有2个隐状态的硬币实验
 import numpy as np
 from time import *
 # todo: fix seed
