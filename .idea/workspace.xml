@@ -41,6 +41,34 @@
       <recent name="C:\Users\zheru\Documents\GitHub\ComplexityQuestions" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComplexityQuestions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Number" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -84,18 +112,50 @@
       <screen x="0" y="0" width="2341" height="1194" />
     </state>
     <state x="576" y="353" key="FileChooserDialogImpl/0.0.2341.1194@0.0.2341.1194" timestamp="1596966193379" />
+    <state width="1237" height="406" key="GridCell.Tab.0.bottom" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.0.bottom/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.0.center" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.0.center/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.0.left" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.0.left/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.0.right" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.0.right/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.1.bottom" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.1.bottom/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.1.center" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.1.center/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.1.left" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.1.left/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
+    <state width="1237" height="406" key="GridCell.Tab.1.right" timestamp="1598075818956">
+      <screen x="0" y="0" width="2341" height="1194" />
+    </state>
+    <state width="1237" height="406" key="GridCell.Tab.1.right/0.0.2341.1194@0.0.2341.1194" timestamp="1598075818956" />
     <state x="990" y="222" key="SettingsEditor" timestamp="1596886832684">
       <screen x="0" y="0" width="2341" height="1194" />
     </state>
     <state x="990" y="222" key="SettingsEditor/0.0.2341.1194@0.0.2341.1194" timestamp="1596886832684" />
-    <state x="1383" y="421" key="com.intellij.ide.util.TipDialog" timestamp="1596954932418">
+    <state x="1150" y="450" key="com.intellij.ide.util.TipDialog" timestamp="1598296251509">
       <screen x="0" y="0" width="2341" height="1194" />
     </state>
     <state x="1296" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1596195437727" />
-    <state x="1383" y="421" key="com.intellij.ide.util.TipDialog/0.0.2341.1194@0.0.2341.1194" timestamp="1596954932418" />
-    <state x="1117" y="315" key="search.everywhere.popup" timestamp="1596886787045">
+    <state x="1150" y="450" key="com.intellij.ide.util.TipDialog/0.0.2341.1194@0.0.2341.1194" timestamp="1598296251509" />
+    <state x="1117" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1598170553005">
       <screen x="0" y="0" width="2341" height="1194" />
     </state>
-    <state x="1117" y="315" key="search.everywhere.popup/0.0.2341.1194@0.0.2341.1194" timestamp="1596886787045" />
+    <state x="1117" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2341.1194@0.0.2341.1194" timestamp="1598170553005" />
   </component>
 </project>
