@@ -21,13 +21,13 @@ def fibonacci(number_a):
         yield tmp
 list(fibonacci(11))
 
-# test
+# test Mathematics阶乘的估算，成功
 n = 5
 a_n = (1/6)*n*(n+1)*(n+2)
 b_n = (1/2)*n*(n+1)
 int(2**a_n*0.630882266676063396815526621896) % (2**b_n)
 
-# test2
+# test2 知乎阶乘的估算，失败
 import numpy as np
 def f(x):
     return 1/2 - (1/np.pi) * np.arctan(np.cos(np.pi*x)/np.sin(np.pi*x))
@@ -37,23 +37,23 @@ n=3
 
 
 bin(10) # 10进制转2进制
-int('0b1010',2) # 2进制转10进制
+int('0b1010', 2) # 2进制转10进制
 
 def minus_bi(a,b):
     return bin(int(a,2)-int(b,2))
 
 def bi_mul(a,b):
     return bin(int(a, 2)*int(b, 2)+1)
-bi_mul('1011','11')
+bi_mul('1011', '11')
 
-#
+# 对11的m次方的某一位数所出现的分型现象进行研究。还求解了百分位数字的显性表达式(见Mathematics)，
 eleven_s = [11**m for m in range(1, 200)]
 N_2_eleven = [str(eleven_s[i])[-2] for i in range(len(eleven_s))]
 import matplotlib.pyplot as plt
 plt.figure()
 plt.scatter(list(range(len(N_2_eleven))), N_2_eleven)
 
-# colotz
+# 对colotz整数分解公式的验证(但是还需要求解)
 # 验证公式: 3
 n=4
 m1 = 1
