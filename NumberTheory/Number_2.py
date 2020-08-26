@@ -2,14 +2,15 @@
 # input: p
 # output: progress
 
-p = 24
-z = 7
-n = 7
+z = 9
+p = 8  # 变成奇数时*3的次数
+n = 1  #
 coeffs_3 = [3**i for i in range(p)]  # constant
 coeffs_2 = [0 for i in range(p)]  # variables to be solved
 right_value0 = bin(3**p*z)[2:]
 right_value1 = bin(2**(len(bin(3**p*z)[2:])+n))[2:]  # n表示重复迭代的次数
 right_value = bin( int(right_value1,2) - int(right_value0,2) )[2:]  # 表示等式右边待fit的值
+print(right_value, int(right_value,2))
 
 # Euclid Algorithm
 for i in range(-1, -len(coeffs_3)-1, -1):
@@ -39,6 +40,9 @@ print('故:'+'2**'+str(len(bin(3**p*z)[2:]))+'-'+'3**'+str(p)+'*'+str(z)
       +'\n='+'sum of '+str([str(coeffs_3[j])+'*2**'+str(coeffs_2[j]) for j in range(len(coeffs_3))])+ '             ---10Hex'
       +'\n='+str(bin(sum([coeffs_3[j]*2**coeffs_2[j] for j in range(len(coeffs_3))]))[2:])+ '             ---2Hex'
       +'\n='+str(sum([coeffs_3[j]*2**coeffs_2[j] for j in range(len(coeffs_3))]))+ '             ---10Hex')
+print(coeffs_2)
 
 
-
+#
+def mod(a,b):
+    print(a/b, a%b)
