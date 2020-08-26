@@ -42,7 +42,15 @@ print('故:'+'2**'+str(len(bin(3**p*z)[2:]))+'-'+'3**'+str(p)+'*'+str(z)
       +'\n='+str(sum([coeffs_3[j]*2**coeffs_2[j] for j in range(len(coeffs_3))]))+ '             ---10Hex')
 print(coeffs_2)
 
-
 #
 def mod(a,b):
     print(a/b, a%b)
+
+# test
+list = []
+for m in range(1, 100):
+    r = m*(m-1)/2 % 10
+    list.append(r)
+import matplotlib.pyplot as plt
+plt.plot(list)
+
