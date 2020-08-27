@@ -46,11 +46,61 @@ print(coeffs_2)
 def mod(a,b):
     print(a/b, a%b)
 
-# test
+# m(m-1)/2
 list = []
 for m in range(1, 100):
     r = m*(m-1)/2 % 10
     list.append(r)
 import matplotlib.pyplot as plt
 plt.plot(list)
+plt.title('m*(m-1)/2 % 10')
+
+list = []
+for m in range(1, 100):
+    r = m%20*(m%20-1)/2 % 10
+    list.append(r)
+import matplotlib.pyplot as plt
+plt.plot(list)
+plt.title('m%20*(m%20-1)/2 % 10')
+
+list = []
+for m in range(1, 100):
+    # r = 1%10+2%10+(m-1)%10  # 有问题
+    # r = ( (int((m-1)/10)%10)*5 + (m%10)*((m-1)%10) / (2%10) )%10
+    r = ((int((m - 1) / 10) % 10) * 5 + ((m - 1) % 10 + 1) * ((m - 1) % 10) / (2 % 10)) % 10
+    list.append(r)
+import matplotlib.pyplot as plt
+plt.plot(list)
+plt.title('1%10+2%10+(m-1)%10')
+
+
+# 11^m的千分位
+from scipy.special import comb, perm
+c_s = []
+c1_s = []
+for m in range(1, 50):
+    a = int(comb(m, 2))
+    b = ( (comb(m, 1) - comb(m, 1)%10)/10 + comb(m, 2) ) % 10
+    # a1能够消除差距而构造的
+    a1 = (int(m/10) % 10 + a % 10) % 10  # q + comb(m,2)
+
+    # 对比个位数差异
+    c = (a%10 - b%10)%-10
+    c1 = (a1%10 - b%10)%-10
+
+    c1_s.append(c1)
+    c_s.append(c)
+    print(m, a, b, c)
+    print(a1, b)
+    print('\n')
+    # print(bin( int(a) ) ,bin( int(b) ))
+import matplotlib.pyplot as plt
+plt.clf()
+plt.plot(c_s)
+plt.plot(c1_s)
+
+
+
+
+
 
